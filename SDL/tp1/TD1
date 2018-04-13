@@ -1,0 +1,26 @@
+Ex2 -------------------
+
+1) "#include" : permet d'intégrer les librairies
+
+2) #include <SDL/SDL.h>
+   #include <GL/gl.h>
+   #include <GL/glu.h>
+
+   Les fichiers .so sont des fichiers de bibliothèque partagées sur Unix
+
+3) Dans le makefile : 
+	LIB      = -lSDL -lGLU -lGL -lm
+
+4)	Le programme récupère les entrées clavier et souris.
+
+5)	Définie la taille et ouvre la fenetre d'affichage.
+
+
+
+Ex4 ------------------
+
+1) Union partage la meme mémoire alors que structure ne le fait pas.
+
+Ex5 ------------------
+
+3) 
